@@ -1,0 +1,88 @@
+
+.resume-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+h4 {
+    border-style: solid;
+    text-align: center;
+    background-color: #e08c9a;
+}
+  .download-pdf {
+    background-color: #e08c9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .download-pdf:hover {
+    background-color: #b86a77;
+  }
+  
+  .accordion {
+    border: 1px solid #e08c9a;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #e08c9a;
+  }
+  
+  .accordion-header {
+    padding: 15px;
+    background-color: #e08c9a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-header:hover {
+    background-color: #ddd;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .accordion-content.active {
+    max-height: 100vh;
+    padding: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    .download-pdf {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .accordion-header {
+      padding: 15px 10px;
+    }
+  
+    .accordion-content {
+      padding: 10px;
+    }
+  }
+  
+  

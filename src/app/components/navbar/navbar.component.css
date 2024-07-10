@@ -1,0 +1,43 @@
+
+.header {
+    background-color: #f1abb7; 
+    color: #050505; 
+    padding: 20px 0; 
+    text-align: center; 
+    border: 3px dashed #1a1919;
+    position: relative;
+}
+
+.my-name .box-name {
+    font-size: 2rem; 
+     margin-bottom: 10px; 
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item li {
+    margin: 0 10px; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+    background-color: #555; 
+}
+

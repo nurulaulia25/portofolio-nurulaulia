@@ -1,0 +1,90 @@
+@media only screen and (max-width: 767px) {
+    .container {
+       margin: 20px auto;
+       padding: 10px;
+     }
+    .header {
+       padding: 10px;
+     }
+    .main {
+       flex-wrap: nowrap;
+     }
+    .footer {
+       padding: 10px;
+     }
+   }
+
+   @media only screen and (max-width: 479px) {
+    .container {
+      margin: 10px auto;
+      padding: 10px;
+    }
+    .header {
+      padding: 10px;
+      font-size: 16px;
+    }
+    .main {
+      flex-wrap: nowrap;
+    }
+    .footer {
+      padding: 10px;
+      font-size: 14px;
+    }
+    
+    .sidebar {
+      display: none;
+    }
+    .image {
+      width: 100%;
+      height: auto;
+    }
+  }
+   
+  
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+       margin: 30px auto;
+       padding: 15px;
+     }
+    .header {
+       padding: 15px;
+     }
+    .main {
+       flex-wrap: wrap;
+     }
+    .footer {
+       padding: 15px;
+     }
+   }
+   
+   @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+       margin: 40px auto;
+       padding: 20px;
+     }
+    .header {
+       padding: 20px;
+     }
+    .main {
+       flex-wrap: wrap;
+     }
+    .footer {
+       padding: 20px;
+     }
+   }
+   
+   @media only screen and (min-width: 1200px) {
+    .container {
+       margin: 50px auto;
+       padding: 25px;
+     }
+    .header {
+       padding: 25px;
+     }
+    .main {
+       flex-wrap: wrap;
+     }
+    .footer {
+       padding: 25px;
+     }
+   }

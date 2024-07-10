@@ -1,0 +1,129 @@
+<div class="resume-page">
+    <button (click)="Downloadfile()" class="download-pdf">Download Resume PDF</button>
+  
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header" (click)="toggleAccordion(0)">
+          Work Experience
+        </div>
+        <div class="accordion-content" [ngClass]="{'active': selectedItem === 0}">
+          <h4>Customer Service</h4>
+          <p><strong>PT Pendidikan Ganesha Operation,</strong> Jan - May 2023</p>
+          <ul>
+            <li>Served customers both in person and online via WhatsApp.</li>
+            <li>Conducted telemarketing activities to offer products and attract customers to enroll in tutoring.</li>
+            <li>Maintained customer satisfaction scores above 90%.</li>
+            <li>Create financial reports for unit cash inflow and outflow using Myob Accounting.</li>
+            <li>Compiled daily, weekly, and monthly unit placement financial reports to the head office.</li>
+          </ul>
+          <h4>Administrative Staff</h4>
+          <p><strong>SMPN 2 Telukjambe Timur,</strong> Jan - Mar 2022</p>
+          <ul>
+            <li>Maintained a master book containing student data, family information, educational data, attendance, and absences.
+            <li>Carried out student administration activities such as recapping attendance scores using Microsoft Excel</li>
+            <li>Created administrative activity letters for the administration office using Microsoft Word.</li>
+            <li>Created book classification codes to organize library books neatly.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" (click)="toggleAccordion(1)">
+          Education
+        </div>
+        <div class="accordion-content" [ngClass]="{'active': selectedItem === 1}">
+          <h4>Bachelor's Degree in Education Management</h4>
+          <p><strong>Universitas Singaperbangsa Karawang,</strong> 2014-2018</p>
+          <ul>
+            <li>Graduated with a GPA of 3.55/4.0</li>
+            <li>Actively involved in HIMA committee activities during events.
+            <li>Published scientific work in Sinta 3 Journal.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" (click)="toggleAccordion(2)">
+          Certification
+        </div>
+        <div class="accordion-content" [ngClass]="{'active': selectedItem === 2}">
+          <ul>
+            <li>Women In Tech: Python and Cybersecurity - <strong>Digitalent Kominfo</strong></li>
+            <li>Learning the Basics of JavaScript Programming - <strong>Dicoding Indonesia</strong></li>
+            <li>Learning the Basics of Structured Query Language (SQL) - <strong>Dicoding Indonesia</strong></li>
+            <li>Learning the Basics of Web Programming - <strong>Dicoding Indonesia</strong></li>
+            <li>Golang Batch #16 Enigma 2.0 - <strong>Camp IT Bootcamp</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" (click)="toggleAccordion(3)">
+          Skills
+        </div>
+        <div class="accordion-content" [ngClass]="{'active': selectedItem === 3}">
+            <h4>Language</h4>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Golang</li>
+                <li>C#</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+            <h4>Framework</h4>
+            <ul>
+                <li>Angular</li>
+                <li>.Net Framework</li>
+            </ul>
+            <h4>Databases</h4>
+            <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>SQL Server</li>
+            </ul>
+            <h4>Tools</h4>
+            <ul>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>Katalon</li>
+            </ul>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" (click)="toggleAccordion(4)">
+          Experience Project
+        </div>
+        <div class="accordion-content" [ngClass]="{'active': selectedItem === 4}">
+          <h4>Booking Room App</h4>
+          <p>Developed a backend application using <strong>Golang.</strong></p>
+          <ul>
+            <li>Implemented user authentication and authorization. Designed database schema and RESTful API endpoints. Deployed the application using Docker</li>
+          </ul>
+          <h4>Laundry App</h4>
+          <p>Developed a backend application using <strong>Golang.</strong></p>
+          <ul>
+            <li>Management system for customer and laundry service data using Go and PostgreSQL.</li>
+          </ul>
+          <h4>Todo App</h4>
+          <p>Developed a backend application using <strong>Golang.</strong></p>
+          <ul>
+            <li>The Todo App Go is a simple Todo List application built with Go (Golang). It allows users to create, read, update, and delete todo tasks.</li>
+          </ul>
+          <h4>Dharmawangsa Dharmawangsa High School</h4>
+          <p>Developed a backend application using <strong>Angular.</strong></p>
+          <ul>
+            <li>School Website
+                The School Website Angular is a web application built with Angular, a JavaScript framework for building single-page applications. It is generated using the Angular CLI and provides a basic structure for a school website.</li>
+          </ul>
+          <h4>Employee Management System</h4>
+          <p>Developed a backend application using <strong>.Net Framework</strong></p>
+          <ul>
+            <li>Adding, editing, and deleting employee data. Displaying a list of employees and other management operations.</li>
+          </ul>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Nurul Aulia. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
